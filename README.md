@@ -2,7 +2,7 @@
 
 Run the following:
 
-`OPENAI_API_KEY=YOURKEYHERE`
+`export OPENAI_API_KEY=YOURKEYHERE`
 
 `pip install -r requirements.txt`
 
