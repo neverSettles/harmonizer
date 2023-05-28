@@ -6,7 +6,7 @@ import langchain
 # Set up your OpenAI API credentials
 key = os.getenv("OPENAI_API_KEY")
 openai.api_key = key
-print(key)
+# print(key)
 
 def call_openai_api(prompt):
     # Define the parameters for the completion
