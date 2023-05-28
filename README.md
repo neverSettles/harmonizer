@@ -2,11 +2,21 @@
 
 Run the following:
 
+## Setup API key
 `export OPENAI_API_KEY=YOURKEYHERE`
 
-`pip install -r requirements.txt`
+## Setup virtual environment
 
-`python harmonizer.py`
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Run the code
+```
+python harmonizer.py
+```
 
 # Demo
 ![Example image of running the harmonizer code](example.png "Harmonization")
