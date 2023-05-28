@@ -1,6 +1,7 @@
 import openai
 import os
 from typing import List
+import langchain
 
 # Set up your OpenAI API credentials
 key = os.getenv("OPENAI_API_KEY")
@@ -64,7 +65,7 @@ print(prompt)
 openai_response = call_openai_api(prompt)
 print(openai_response)
 
-import langchain
+
 
 def execute_python_code(code):
     try:
