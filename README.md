@@ -13,6 +13,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+Download the following repo into ../:
+```
+git clone git@github.com:Open-Earth-Foundation/OpenClimate.git
+```
+
 ## Run the code
 ```
 python harmonizer.py
